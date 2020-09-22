@@ -217,6 +217,11 @@ footer p {
     align-self: center;
 }
 
+.blog-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /* .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
