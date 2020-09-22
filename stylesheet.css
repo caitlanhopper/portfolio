@@ -1,0 +1,441 @@
+body {
+    background-color: #EEDCCB;
+    color: #41413F;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    min-width: 320px;
+}
+
+.background-image {
+    background-image: url(images/large-scallop-edge.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
+    margin-top: -10px;
+    height: 285px
+}
+
+h1,
+h2,
+h3,
+h4,
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-image h1 {
+    display: block;
+    text-align: center;
+    font-size: 4.236em;
+    padding: 30px 0px 5px 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+h1.background-main-heading {
+    padding-top: 60px;
+}
+
+.background-image h2 {
+    display: block;
+    text-align: center;
+    background: none;
+    padding: 5px 0px 10px 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a.nav-home h2 {
+    padding: 0px 0px 15px 15px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4.236em;
+}
+
+h2 {
+    font-size: 2.618em;
+}
+
+h3 {
+    font-size: 1.618em;
+}
+
+h4 {
+    font-size: 1.45em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #EFB7A9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sticky-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.landing-page-nav {
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.landing-page-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.nav-home {
+    text-decoration: none;
+    text-align: left;
+}
+
+.sticky-nav {
+    display: flex;
+    flex: 1 1 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.project-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.618em;
+}
+
+.project-nav a {
+    text-decoration: underline dashed;
+}
+
+p {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1em;
+    word-spacing: -.25em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #41413F;
+    cursor: pointer;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+header {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #EFB7A9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer p {
+    padding: 0;
+}
+
+.read-more {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+/* Used images as icons to change icon colour */
+.icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.align-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-large img {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0px;
+    border: 0px;
+    margin: 10px 0px;
+}
+
+.p5-sketch {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+/* .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+
+} */
+
+/* .project-name {
+    grid-column: 1/-1;
+} */
+
+/* Button like tiles in PROJECT Section */
+.tile {
+    background-color: #EFB7A9;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 10px 20px 10px;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, .25);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    /* align-items: center; */
+}
+
+
+.tile h2,
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    background: none;
+    padding-left: 20px;
+}
+
+.tile:hover h2 {
+    text-decoration: underline dashed;
+}
+
+.image-resize-height {
+    height: 600px;
+}
+
+/* .thumbnail {
+    width: 200px;
+    height: 200px;
+} */
+
+main {
+    min-height: 80vh;
+}
+
+main a.section-link {
+    text-decoration: none;
+}
+
+main section.project-in-depth h2 {
+    display: block;
+    background-color: #EFB7A9;
+    padding: 10px;
+    text-align: center;
+}
+
+.section-padding {
+    padding: 30px 30px;
+}
+
+main h2 {
+    display: block;
+    background-color: #EFB7A9;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.button {
+    display: block;
+    background-color: #EFB7A9;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, .25);
+}
+
+.button h3 {
+    padding: 10px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Adds a peachy highlight */
+p span {
+    background-color: rgba(238, 139, 120, .25);
+}
+
+.process-list li {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1em;
+    word-spacing: -.25em;
+    line-height: 1.5em;
+}
+
+/* Styles the reflection list in closet curator in-depth */
+.project-in-depth li {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1em;
+    word-spacing: -.25em;
+    line-height: 1.5em;
+}
+
+/* Youtube things learnt from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+iframe {
+    border: 0;
+}
+
+.youtube-size {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+/* To wrap the referencing links on contact page */
+.word-wrap p {
+    overflow-wrap: break-word;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+    .background-image {
+        background-image: url(images/scallop-edge.png);
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-size: 100% 100%;
+        margin-top: -10px;
+        height: 285px
+    }
+
+    .project-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-nav li {
+        margin-bottom: 1em;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sticky-nav ul {
+        flex-direction: column;
+    }
+
+    h1,
+    h3 {
+        text-align: center;
+    }
+
+    .background-image h1 {
+        font-size: 64px;
+    }
+
+    .background-image h2 {
+        font-size: 24px;
+    }
+
+    .animation {
+        width: 320px;
+        height: 240px;
+    }
+
+    .tile {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tile h2 {
+        font-size: 24px;
+    }
+
+    .section-link .tile h2 {
+        text-decoration: underline dashed;
+    }
+}
