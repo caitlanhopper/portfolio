@@ -54,6 +54,10 @@ a.nav-home h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
+a.nav-home h2:hover {
+    text-decoration: underline dashed;
+}
+
 h1 {
     font-size: 4.236em;
 }
@@ -91,6 +95,7 @@ nav {
     padding-bottom: 20px;
 }
 
+
 .landing-page-nav {
     margin: 0;
     position: -webkit-sticky;
@@ -113,6 +118,10 @@ li {
 
 li a {
     text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline dashed;
 }
 
 .nav-home {
@@ -153,6 +162,10 @@ a {
 
 .current {
     text-decoration: underline;
+}
+
+.current:hover {
+    text-decoration: underline dashed;
 }
 
 header {
