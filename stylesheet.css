@@ -142,6 +142,7 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     font-size: 1.618em;
+    padding: 0;
 }
 
 .project-nav a {
@@ -434,6 +435,7 @@ blockquote {
     .project-nav {
         flex-direction: column;
         text-align: center;
+        padding: 0;
     }
 
     .project-nav li {
